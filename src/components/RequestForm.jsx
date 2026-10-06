@@ -43,8 +43,7 @@ function RequestForm() {
 
           <p>
             Have a birthday, graduation, party, or something completely
-            different coming up? Send me the details and I'll get back to
-            you about bringing your idea to life.
+            different coming up? Send me the details and lets bring your idea to life!
           </p>
 
           <div className="request-note">
@@ -114,7 +113,7 @@ function RequestForm() {
                 <option value="holiday">Holiday</option>
                 <option value="party">Party</option>
                 <option value="business">Business / Event</option>
-                <option value="other">Something else</option>
+                <option value="other">Other</option>
               </select>
             </div>
           </div>
@@ -193,7 +192,7 @@ function RequestForm() {
 
           <p className="form-disclaimer">
             This is a request, not a confirmed order. I'll reach out after
-            reviewing your idea.
+            I review your idea.
           </p>
 
         </form>
