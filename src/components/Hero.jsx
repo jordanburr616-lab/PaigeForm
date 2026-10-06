@@ -1,3 +1,6 @@
+import banner1 from "../assets/banner-1.png";
+import banner2 from "../assets/banner-2.png";
+
 function Hero() {
   return (
     <section className="hero">
@@ -44,17 +47,11 @@ function Hero() {
 
         <div className="hero-art">
           <div className="art-card art-card-one">
-            <img
-                src="/src/assets/banner-1.png"
-                alt="Custom hand-painted celebration banner"
-            />
+            <img src={banner1} alt="Custom painted banner" />
             </div>
 
             <div className="art-card art-card-two">
-            <img
-                src="/src/assets/banner-2.png"
-                alt="Custom hand-painted birthday banner"
-            />
+            <img src={banner2} alt="Custom painted banner" />
           </div>
 
           <span className="doodle doodle-one">✦</span>
